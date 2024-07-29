@@ -1,0 +1,40 @@
+super + Print
+        maim ~/screenshot_$(date +%d-%m-%y-%H_%M).png
+super + d
+        /home/machi/.dmen
+super + shift + x
+        i3lock
+super + BackSpace
+        loginctl poweroff
+super + shift + BackSpace
+        loginctl reboot
+super + w 
+        firefox
+super + z
+        chromium
+super + x
+        /home/machi/Telegram/Telegram
+super + p
+        keepassxc
+super + n
+        st -e newsboat
+super + c
+        pcmanfm
+super + m 
+        st -e ncmpcpp
+super + g
+        gimp
+super + s
+        st -e lfub
+super + shift + Print
+        maim | xclip -selection clipboard -t image/png
+super + l
+        maim -s ~/screenshot_$(date +%d-%m-%y-%H_%M).png
+super + shift + l
+        maim -s | xclip -selection clipboard -t image/png
+XF86AudioLowerVolume
+        pamixer -d 5
+XF86AudioRaiseVolume
+        pamixer -i 5
+XF86AudioMute
+        pamixer -t
