@@ -1,0 +1,11 @@
+#~/.fehbg &
+#~/.xsslock.sh &
+#dwmblocks &
+#redshift -P -O 2500 &
+#mpd &
+#sxhkd -c ~/.config/sxhkd/sxhkdrc &
+while true; do
+    dwm >/dev/null 2>&1
+done
+
+exec dwm
